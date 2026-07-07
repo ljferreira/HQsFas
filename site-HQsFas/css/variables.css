@@ -1,0 +1,13 @@
+:root{
+    --cor-fundo: #131b28;
+    --cor-header: #283038;
+    --cor-main: #1f2b39;
+    --cor-footer: #283038;
+    --cor-button: #5953e6;
+    --cor-button-hover: #3530c9;
+    --fonte-logo: "Orbitron", sans-serif;
+    --fonte-logo-weight: 900;
+    --cor-logo-header: yellow;
+    --cor-logo-footer: azure;
+    --fonte-geral: "Roboto Flex", sans-serif;
+}
