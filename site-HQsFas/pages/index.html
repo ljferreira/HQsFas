@@ -4,34 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HQs Fãs</title>
-        <!--link rel="stylesheet" href="../css/reset.css"/-->
         <link rel="stylesheet" href="../css/main.css"/>
-        <!--script src="../js/components/site-header.js" defer></script-->
     </head>
     <body>
         <site-header></site-header>
-        <!--header>
-            <h2 class="logo">HQs Fãs</h2>
-            <nav class="menu">
-                <a href="#">EXPLORAR</a>
-                <a href="#">COMUNIDADE</a>
-                <a href="#">CONHECIMENTO</a>
-                <a href="#">GALERIA</a>
-                <button class="button" onclick="window.location.assign('cadastro.html')">CADASTRE-SE</button>
-            </nav>
-        </header-->
-        <section>
-            <button class="button">MARVEL</button>
-            <button class="button">DC</button>
-            <button class="button">DARK HORSE</button>
-            <button class="button">NBC - HEROES</button>
-            <button class="button">TODOS</button>
-            <div id="pesquisa">
-                <input type="text" placeholder="Pesquise seu personagem favorito..."/>
-                <img src="../assets/icon/search.svg"></img>
-            </div>
-        </section>
-        <!--main class="principal">
+        <site-search></site-search>
+        <main>
             <div>
                 <div style="margin-top: 5px; width: 220px; height: 280px;">
                     <img style="border-radius: 15px; background-color: aqua; object-fit: cover; width: 100%; height: 100%;" src="https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/70-batman.jpg" />
@@ -59,37 +37,11 @@
             <div>Imagem</div>
             <div>Imagem</div>
             <div>Imagem</div>
-        </main-->
-        <!--footer>
-            <h2 class="logo-footer">HQs<br>Fãs</h2>
-            <ul>
-                <li><span>Recursos</span></li>
-                <li><a href="#">Banco de dados</li></a>
-                <li><a href="#">Wiki</li></a>
-                <li><a href="#">FAQ</li></a>
-            </ul>
-            <ul>
-                <li><span>Comunidade</span></li>
-                <li><a href="#">Foruns</li></a>
-                <li><a href="#">Perfis</li></a>
-                <li><a href="#">Eventos</li></a>
-            </ul>
-            <ul>
-                <li><span>Legal</span></li>
-                <li><a href="#">Termos</li></a>
-                <li><a href="#">Privacidade</li></a>
-                <li><a href="#">DMCA</li></a>
-            </ul>
-            <div class="direitos">
-                <h6>&copy; 2026 HQs Fãs</h6>
-                <img src="../assets/icon/facebook-gray.svg" width="20px"></img>
-                <img src="../assets/icon/discord-gray.svg" width="20px"></img>
-                <img src="../assets/icon/github-gray.svg" width="20px"></img>
-            </div>
-        </footer-->
+        </main>
         <site-footer></site-footer>
     </body>
     <script src="../js/teste.js"></script>
     <script src="../js/components/site-header.js"></script>
+    <script src="../js/components/site-search.js"></script>
     <script src="../js/components/site-footer.js"></script>
 </html>

@@ -58,7 +58,7 @@ body{
     "YTUC" 712;
 }*/
 
-.direitos{
+/*.direitos{
     display: flex;
     padding: 0px 0px;
     gap: 10px;
@@ -72,7 +72,7 @@ body{
 .direitos img{
     background-color: inherit;
     cursor: pointer;
-}
+}*/
 
 
 
@@ -92,7 +92,7 @@ body{
     top:0;
 }*/
 
-#pesquisa{
+/*#pesquisa{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -133,11 +133,11 @@ section{
     align-items: center;
     margin-top: 10px;
     gap: 25px;
-}
+}*/
 
 main{
     display: grid;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px 0;
     grid-template-columns: repeat(4, 230px);
     gap: 20px;

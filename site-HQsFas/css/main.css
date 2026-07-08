@@ -4,4 +4,5 @@
 @import "variables.css";
 @import "./components/button.css";
 @import "./components/site-header.css";
+@import "./components/site-search.css";
 @import "./components/site-footer.css";

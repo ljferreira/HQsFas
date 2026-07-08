@@ -17,8 +17,8 @@ footer{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     padding: 5px 40px;
-    position:sticky;
-    bottom:0;
+    position: sticky;
+    bottom: 0px;
 }
 
 footer ul{
@@ -56,4 +56,20 @@ footer ul li a:hover{
     text-decoration: none;
     color: rgb(209, 212, 212);
     background-color: inherit;
+}
+
+.direitos{
+    display: flex;
+    padding: 0px 0px;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: inherit;
+    width: 80px;
+}
+
+.direitos img{
+    background-color: inherit;
+    cursor: pointer;
 }
