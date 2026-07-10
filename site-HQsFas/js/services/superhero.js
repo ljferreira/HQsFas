@@ -2,7 +2,7 @@ export async function listaPersonagem() {
 
     let obtemLista = null;
     let listaPersonagens = null;
-    console.log("Testando");
+    //console.log("Testando");
 
     try{
 

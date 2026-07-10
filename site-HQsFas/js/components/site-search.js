@@ -2,11 +2,11 @@ class SiteSearch extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
         `<section class="search">
-            <button class="button">MARVEL</button>
-            <button class="button">DC</button>
-            <button class="button">DARK HORSE</button>
-            <button class="button">NBC - HEROES</button>
-            <button class="button">TODOS</button>
+            <button class="button-publisher">MARVEL</button>
+            <button class="button-publisher">DC</button>
+            <button class="button-publisher">DARK HORSE</button>
+            <button class="button-publisher">NBC - HEROES</button>
+            <button class="button-publisher">TODOS</button>
             <div>
                 <input type="text" placeholder="Pesquise seu personagem favorito..."/>
                 <img src="../assets/icon/search.svg"></img>

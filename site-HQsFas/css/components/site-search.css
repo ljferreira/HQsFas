@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 10px;
     gap: 25px;
 }
 
@@ -10,6 +11,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    flex-grow: .15;
     padding: 2px;
     max-width: 50%;
     height: 40px;

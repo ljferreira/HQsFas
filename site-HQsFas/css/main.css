@@ -2,7 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
 @import "reset.css";
 @import "variables.css";
-@import "./components/button.css";
+@import "./components/buttons.css";
 @import "./components/site-header.css";
 @import "./components/site-search.css";
 @import "./components/site-footer.css";
+
+site-header{
+    position: sticky;
+    top: 0;
+}
+
+site-search{
+    position: sticky;
+    top: 40px;
+}
+
+site-footer{
+    position: sticky;
+    bottom: 0;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 200px);
+    gap: 15px;
+}
+
+main > div{
+    background-color: var(--cor-main);
+    height: 380px;
+    text-align: center;
+    color: white;
+    border: 2px #2d3446 solid;
+    border-radius: 20px;
+}

@@ -64,6 +64,33 @@ async function buscarHeroi(id){
     return dados
 }
 
-function teste(){
-    alert("Teste!!!");
+function carregarCards(){
+    //alert("Teste!!!");
+    document.getElementById('repo-cards').innerHTML=`<div>
+                <div style="margin: auto; margin-top: 5px; width: 190px; height: 250px;">
+                    <img style="border-radius: 15px; object-fit: cover; width: 100%; height: 100%;" src="https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/70-batman.jpg" alt="imagem de personagem" />
+                </div>
+                <h3 style="background-color: inherit; font-family: var(--fonte-geral);">Batman</h3>
+                <h6 style="background-color: inherit; font-family: var(--fonte-geral);">DC Comics</h6>
+                <p style="background-color: inherit; font-family: var(--fonte-geral); font-size: .8rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <h5 style="background-color: inherit; font-family: var(--fonte-geral);">Poder</h5>
+                <h5 style="background-color: inherit; font-family: var(--fonte-geral);">67</h5>
+                
+            </div>
+            <div>
+                <div style="margin: auto; margin-top: 5px; width: 190px; height: 250px;">
+                    <img style="border-radius: 15px; background-color: aqua; object-fit: cover; width: 100%; height: 100%;" src="https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/80-beyonder.jpg" alt="imagem de personagem" />
+                </div>
+                <h3 style="background-color: inherit; font-family: var(--fonte-geral);">Batman</h3>
+                <h6 style="background-color: inherit; font-family: var(--fonte-geral);">Testing...</h6>
+                <p style="background-color: inherit; font-family: var(--fonte-geral); font-size: .8rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <h5 style="background-color: inherit; font-family: var(--fonte-geral);">Poder</h5>
+                <h5 style="background-color: inherit; font-family: var(--fonte-geral);">67</h5>
+            </div>
+            <div>Imagem</div>
+            <div>Imagem</div>
+            <div>Imagem</div>
+            <div>Imagem</div>
+            <div>Imagem</div>
+            <div>Imagem</div-->`;
 }

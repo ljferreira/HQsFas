@@ -8,8 +8,8 @@ header{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 5px 40px;
-    position: sticky;
-    top:0;
+    /*position: sticky;
+    top:0;*/
 }
 
 .logo{
@@ -17,7 +17,8 @@ header{
     font-weight: var(--fonte-logo-weight);
     color: var(--cor-logo-header); 
     flex-grow: 2; 
-    background-color: inherit;    
+    background-color: inherit;
+    cursor: pointer;  
 }
 
 .menu{
