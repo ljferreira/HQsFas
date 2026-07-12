@@ -10,10 +10,10 @@ import { listaPersonagem } from "./superhero.js";
 
 // }
 
-window.exibirPersonagens = async function () {
+/*window.exibirPersonagens = async function () {
     const personagens = await listaPersonagem();
     console.table(personagens);
     console.log("TESTANDO");
 };
 
-function testeCons() { console.log("teste")}
+function testeCons() { console.log("teste")}*/

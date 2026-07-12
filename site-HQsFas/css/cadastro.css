@@ -11,7 +11,8 @@ body{
     display: flex;
     align-items: start;
     padding: 15px;
-    width: 350px; 
+    width: 350px;
+    height: auto; 
     /* height: 450px;  */
     margin: auto;
     border-radius: 10px;

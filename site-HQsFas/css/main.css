@@ -3,6 +3,7 @@
 @import "reset.css";
 @import "variables.css";
 @import "./components/buttons.css";
+@import "./components/site-heroe-card.css";
 @import "./components/site-header.css";
 @import "./components/site-search.css";
 @import "./components/site-footer.css";
@@ -25,15 +26,16 @@ site-footer{
 main{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(5, 200px);
+    grid-template-columns: repeat(5, auto); /*200px*/
     gap: 15px;
+    height: 100vh;
 }
 
-main > div{
+/* main > div{
     background-color: var(--cor-main);
     height: 380px;
     text-align: center;
     color: white;
     border: 2px #2d3446 solid;
     border-radius: 20px;
-}
+} */
