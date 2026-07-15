@@ -165,27 +165,27 @@ function exibeCards( cards, produtorPersonagem = "" ) {
                 <h5 class="identidadePersonagem">${(element.fullName != "") ? element.fullName : '&nbsp;'}</h5>
                 <div class="qualidadesPersonagem">
                     <div >
-                        <img src="../assets/icon/intelligence.png" width="20" title="Inteligência"/>
+                        <img src="./assets/icon/intelligence.png" width="20" title="Inteligência"/>
                         <h5>${element.intelligence}</h5>
                     </div>
                     <div >
-                        <img src="../assets/icon/strength.png" width="20" title="Força"/>
+                        <img src="./assets/icon/strength.png" width="20" title="Força"/>
                         <h5>${element.strength}</h5>
                     </div>
                     <div >
-                        <img src="../assets/icon/speed.png" width="20" title="Velocidade"/>
+                        <img src="./assets/icon/speed.png" width="20" title="Velocidade"/>
                         <h5>${element.speed}</h5>
                     </div>
                     <div >
-                        <img src="../assets/icon/durability.png" width="20" title="Durabilidade"/>
+                        <img src="./assets/icon/durability.png" width="20" title="Durabilidade"/>
                         <h5>${element.durability}</h5>
                     </div>
                     <div >
-                        <img src="../assets/icon/power.png" width="20" title="Poder"/>
+                        <img src="./assets/icon/power.png" width="20" title="Poder"/>
                         <h5>${element.power}</h5>
                     </div>
                     <div >
-                        <img src="../assets/icon/combat.png" width="20" title="Combate"/>
+                        <img src="./assets/icon/combat.png" width="20" title="Combate"/>
                         <h5>${element.combat}</h5>
                     </div>
                 </div>

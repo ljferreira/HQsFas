@@ -13,7 +13,7 @@ class SiteSearch extends HTMLElement {
             </div-->
             <div>
                 <input type="text" list="search"  placeholder="Pesquise seu personagem favorito..."/>
-                <img src="../assets/icon/search.svg" ></img>
+                <img src="./assets/icon/search.svg" ></img>
                 <datalist id="search">
                     <!--option value="Batman"-->
                 </datalist>
