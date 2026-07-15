@@ -73,3 +73,23 @@ footer ul li a:hover{
     background-color: inherit;
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+    footer{
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    footer ul li{
+        font-size: .5rem;
+    }
+
+    footer ul li span{
+        font-size: 0.5rem;  
+    }
+
+    .direitos{
+        gap: 5px;
+    }
+}

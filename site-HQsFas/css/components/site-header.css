@@ -12,6 +12,12 @@ header{
     top:0;*/
 }
 
+#iconeMenu{
+    display: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
 .logo{
     font-family: var(--fonte-logo);
     font-weight: var(--fonte-logo-weight);
@@ -39,4 +45,23 @@ header{
 
 .menu > a:hover{
     font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .logo{
+        flex-grow: 1;
+    }
+
+    .menu a{
+        display: none;
+    }
+
+    #iconeMenu{
+        display: initial;
+    }
+
+    .button-cadastro{
+        margin-left: auto;
+    }
 }

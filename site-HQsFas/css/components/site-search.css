@@ -5,6 +5,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
     gap: 25px;
+    background-color: inherit;
+    /* display: none; */
 }
 
 .search div{
@@ -12,12 +14,14 @@
     justify-content:space-between;
     align-items: center;
     flex-grow: .15;
-    padding: 2px;
+    /* padding: 2px; */
     max-width: 50%;
-    height: 40px;
+    height: 40px; /*45px*/
     gap: 5px;
     background-color: aliceblue;
     border-radius: 20px;
+
+    /* border: solid 2px rgb(41, 147, 209); */
 }
 
 .search input{
@@ -29,6 +33,10 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: aliceblue;
+
+    /* border-top: solid 2px blue;
+    border-left: solid 2px blue;
+    border-bottom: solid 2px blue; */
 }
 
 .search input:focus,
@@ -37,8 +45,46 @@
     box-shadow: none;
 }
 
+.search select{
+    /* display: none; */
+    background-color: inherit;
+    margin-left: 5px;
+    outline: none;
+    border: none;
+}
+
+.search select option{
+    background-color: inherit;
+}
+
 .search img{
     background-color: inherit;
     border-radius: 20px;
+    margin-right: 2px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .search{
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .search{
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+
+    .search div{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
 }

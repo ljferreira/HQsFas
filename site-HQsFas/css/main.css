@@ -31,11 +31,26 @@ main{
     height: 100vh;
 }
 
-/* main > div{
-    background-color: var(--cor-main);
-    height: 380px;
-    text-align: center;
-    color: white;
-    border: 2px #2d3446 solid;
-    border-radius: 20px;
-} */
+@media screen and (max-width: 1150px) {
+    main{
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    main{
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width: 730px) {
+    main{
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main{
+        grid-template-columns: repeat(1, auto);
+    }
+}

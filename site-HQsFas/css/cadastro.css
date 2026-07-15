@@ -57,6 +57,32 @@ body{
     background-color: inherit;
 }
 
+.cadastro form div{
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+    gap: 0 5px;
+    width: 100%;
+}
+
+.cadastro form div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cadastro form div span{
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    gap: 5px;
+    width: 25%;
+}
+
+.cadastro form div span input{
+    text-align: center;
+}
+
 .button{
     margin-top: 10px;
     width: 100%;
@@ -67,6 +93,8 @@ body{
     background-color: grey;
 }
 
-/* .button-cadastro:hover{
-    background-color: grey;
-} */
+@media screen and (max-width: 400px) {
+    .cadastro{
+        width: 300px;
+    }
+}

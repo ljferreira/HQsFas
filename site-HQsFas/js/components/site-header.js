@@ -2,7 +2,9 @@ class SiteHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
         `<header>
+            <!--button>Teste</button-->
             <h2 class="logo" onclick="window.location.assign('index.html')">HQs Fãs</h2>
+            <img id="iconeMenu" src="../assets/icon/menu.png" width="40px"/>
             <nav class="menu">
                 <a href="#">EXPLORAR</a>
                 <a href="#">COMUNIDADE</a>
@@ -15,3 +17,16 @@ class SiteHeader extends HTMLElement {
 }
 
 customElements.define('site-header', SiteHeader);
+
+let iconeMenu = document.getElementById("iconeMenu");
+
+iconeMenu.addEventListener("mouseover", iconeMouseOverMenu);
+iconeMenu.addEventListener("mouseout", iconeMouseOutMenu);
+
+function iconeMouseOverMenu() {
+    iconeMenu.src = "../assets/icon/menu_hover.png";
+}
+
+function iconeMouseOutMenu() {
+    iconeMenu.src = "../assets/icon/menu.png";
+}
