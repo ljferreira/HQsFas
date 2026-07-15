@@ -1,48 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HQs Fãs</title>
-    <link rel="stylesheet" href="../css/cadastro.css"/>
-</head>
-<body>
-    <header>
-            <h2 class="orbitron" style="color: yellow; flex-grow: 2; background-color: inherit;">HQs Fãs</h2>
-            <nav class="roboto-flex">
-                <a href="#">EXPLORAR</a>
-                <a href="#">COMUNIDADE</a>
-                <a href="#">CONHECIMENTO</a>
-                <a href="#">GALERIA</a>
-                <button class="button" onclick="buscarHeroi(70)">CADASTRE-SE</button>
-            </nav>
-        </header>
-    <footer class="roboto-flex">
-            <h2 class="orbitron" style="color:azure; background-color: inherit; text-align: center;">HQs<br>Fãs</h2>
-            <ul>
-                <li><span>Recursos</span></li>
-                <li><a href="#">Banco de dados</li></a>
-                <li><a href="#">Wiki</li></a>
-                <li><a href="#">FAQ</li></a>
-            </ul>
-            <ul>
-                <li><span>Comunidade</span></li>
-                <li><a href="#">Foruns</li></a>
-                <li><a href="#">Perfis</li></a>
-                <li><a href="#">Eventos</li></a>
-            </ul>
-            <ul>
-                <li><span>Legal</span></li>
-                <li><a href="#">Termos</li></a>
-                <li><a href="#">Privacidade</li></a>
-                <li><a href="#">DMCA</li></a>
-            </ul>
-            <div class="direitos">
-                <h6>&copy; 2026 HQs Fãs</h6>
-                <img src="../assets/icon/facebook-gray.svg" width="20px"></img>
-                <img src="../assets/icon/discord-gray.svg" width="20px"></img>
-                <img src="../assets/icon/github-gray.svg" width="20px"></img>
-            </div>
-        </footer>
-</body>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HQs Fãs</title>
+        <link rel="stylesheet" href="../css/main.css"/>
+        <link rel="stylesheet" href="../css/cadastro.css"/>
+        <script src="../js/components/site-header.js" defer></script>
+        <script src="../js/components/site-footer.js" defer></script>
+        <script type="module" src="../js/cadastro.js" ></script>
+    </head>
+    <body>
+        <site-header></site-header>
+        <site-search></site-search>
+        <main class=cadastro>
+            <form action="" onsubmit="return false">
+                <h2>CRIE SEU PERFIL DE FÃ</h2>
+                <h5>JUNTE-SE À COMUNIDADE DE FÃS</h5>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required />
+                <label for="email">Email:</label>
+                <input type="email" id="email" required />
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" required />
+                <label for="cep">Cep:</label>
+                <input type="text" id="cep" required />
+                <div>
+                    <div>
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" disabled />
+                    </div>
+                    <span>
+                        <label for="estado">Estado:</label>
+                        <input type="text" id="estado" disabled />
+                    </span>
+                </div>
+                <button class="button-form" type="submit" id="btnConfirmarCadastro">Confirmar</button>
+                <button class="button-form" type="button" onclick="window.location.assign('index.html')">Cancelar</button>
+            </form>
+        </main>
+        <site-footer></site-footer>
+    </body>   
 </html>

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+@import "reset.css";
+@import "variables.css";
+@import "./components/buttons.css";
+@import "./components/site-heroe-card.css";
+@import "./components/site-header.css";
+@import "./components/site-search.css";
+@import "./components/site-footer.css";
+
+site-header{
+    position: sticky;
+    top: 0;
+}
+
+site-search{
+    position: sticky;
+    top: 40px;
+}
+
+site-footer{
+    position: sticky;
+    bottom: 0;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, auto); /*200px*/
+    gap: 15px;
+    height: 100vh;
+}
+
+@media screen and (max-width: 1150px) {
+    main{
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    main{
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width: 730px) {
+    main{
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main{
+        grid-template-columns: repeat(1, auto);
+    }
+}

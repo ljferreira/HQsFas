@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HQs Fãs</title>
+        <link rel="stylesheet" href="../css/cadastro.css"/>
+    </head>
+    <body onload="/*alert('Cadastre-se')*/">
+        <header>
+                <h2 class="orbitron" style="color: yellow; flex-grow: 2; background-color: inherit;">HQs Fãs</h2>
+                <nav class="roboto-flex">
+                    <a href="#">EXPLORAR</a>
+                    <a href="#">COMUNIDADE</a>
+                    <a href="#">CONHECIMENTO</a>
+                    <a href="#">GALERIA</a>
+                    <button class="button" onclick="exibirPersonagens();">CADASTRE-SE</button>
+                </nav>
+            </header>
+        <footer class="roboto-flex">
+                <h2 class="orbitron" style="color:azure; background-color: inherit; text-align: center;">HQs<br>Fãs</h2>
+                <ul>
+                    <li><span>Recursos</span></li>
+                    <li><a href="#">Banco de dados</li></a>
+                    <li><a href="#">Wiki</li></a>
+                    <li><a href="#">FAQ</li></a>
+                </ul>
+                <ul>
+                    <li><span>Comunidade</span></li>
+                    <li><a href="#">Foruns</li></a>
+                    <li><a href="#">Perfis</li></a>
+                    <li><a href="#">Eventos</li></a>
+                </ul>
+                <ul>
+                    <li><span>Legal</span></li>
+                    <li><a href="#">Termos</li></a>
+                    <li><a href="#">Privacidade</li></a>
+                    <li><a href="#">DMCA</li></a>
+                </ul>
+                <div class="direitos">
+                    <h6>&copy; 2026 HQs Fãs</h6>
+                    <img src="../assets/icon/facebook-gray.svg" width="20px"></img>
+                    <img src="../assets/icon/discord-gray.svg" width="20px"></img>
+                    <img src="../assets/icon/github-gray.svg" width="20px"></img>
+                </div>
+            </footer>
+    </body>
+    <script src="../js/teste.js"></script>
+    <script type="module"  src="../js/services/cadastro.js"></script>
+</html>
