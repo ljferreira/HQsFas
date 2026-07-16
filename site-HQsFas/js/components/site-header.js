@@ -10,7 +10,7 @@ class SiteHeader extends HTMLElement {
                 <a href="#">COMUNIDADE</a>
                 <a href="#">CONHECIMENTO</a>
                 <a href="index.html">GALERIA</a>
-                <button class="button-cadastro" onclick="window.location.assign('./pages/cadastro.html')">CADASTRE-SE</button>
+                <button class="button-cadastro" onclick="window.location.assign('cadastro.html')">CADASTRE-SE</button>
             </nav>
         </header>`;
     }
