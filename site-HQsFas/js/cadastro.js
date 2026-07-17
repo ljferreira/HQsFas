@@ -2,6 +2,7 @@ import { buscarCep } from './services/viacep.js';
 
 document.getElementById("cep").addEventListener("input", consultarCep);
 document.getElementById("btnConfirmarCadastro").addEventListener("click", validaCadastro);
+window.addEventListener("load", telaFundo);
 
 async function consultarCep() {
     
@@ -99,4 +100,15 @@ function validaCadastro() {
     alert("Cadastro Concluído!");
     window.location.assign('index.html');
 
+}
+
+function telaFundo() {
+
+    const imagens = ["./assets/images/quadrinhos1.jpg", 
+                     "./assets/images/quadrinhos2.jpg",
+                     "./assets/images/quadrinhos3.jpg"
+                    ];
+    const numeroImagem = Math.floor(Math.random() * 3);
+    document.getElementById("tela").style.backgroundImage = `url(${imagens[numeroImagem]})`;
+    
 }

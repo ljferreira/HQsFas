@@ -7,15 +7,10 @@ class SiteSearch extends HTMLElement {
             <button class="button-publisher" id="btnDarkHorse">DARK HORSE</button>
             <button class="button-publisher" id="btnNBCHeroes">NBC - HEROES</button>
             <button class="button-publisher" id="btnTodos">TODOS</button>
-            <!--div>
-                <input type="text" placeholder="Pesquise seu personagem favorito..."/>
-                <img src="../assets/icon/search.svg" ></img>
-            </div-->
-            <div>
-                <input type="text" list="search"  placeholder="Pesquise seu personagem favorito..."/>
-                <img src="./assets/icon/search.svg" ></img>
-                <datalist id="search">
-                    <!--option value="Batman"-->
+            <div id="campoPesquisaPersonagem">
+                <input type="text" id="pesquisarPersonagem" list="sugestaoPersonagem"  placeholder="Pesquise seu personagem favorito..."/>
+                <img id="botaoPesquisa" src="./assets/icon/search.svg" ></img>
+                <datalist id="sugestaoPersonagem">
                 </datalist>
             </div>
         </section>
@@ -32,3 +27,16 @@ class SiteSearch extends HTMLElement {
 }
 
 customElements.define('site-search', SiteSearch);
+
+let botaoPesquisa = document.getElementById("botaoPesquisa");
+
+botaoPesquisa.addEventListener("mouseover", botaoPesquisaMouseOver);
+botaoPesquisa.addEventListener("mouseout", botaoPesquisaMouseOut);
+
+function botaoPesquisaMouseOver() {
+    botaoPesquisa.src = "./assets/icon/search_hover.svg";
+}
+
+function botaoPesquisaMouseOut() {
+    botaoPesquisa.src = "./assets/icon/search.svg";
+}
