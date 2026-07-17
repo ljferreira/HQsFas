@@ -2,7 +2,6 @@ class SiteHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = 
         `<header>
-            <!--button>Teste</button-->
             <h2 class="logo" onclick="window.location.assign('index.html')">HQs Fãs</h2>
             <img id="iconeMenu" src="./assets/icon/menu.png" width="40px"/>
             <nav class="menu">
