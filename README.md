@@ -14,5 +14,17 @@ Combate.
 A tela de cadastro simula o registro do fã na comunidade, utilizando a API Viacep, para identificar a sua cidade e estado.  
 <br><br>
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/7ff5ed05-e7a6-43a9-b857-fded0c3f1c33" />
+<br><br><br>
+Responsividade:  <br><br>
+
+<img width="254" height="440" alt="image" src="https://github.com/user-attachments/assets/0f21fc98-71d9-4a92-9f29-57ec90548a13" />
+<img width="200" height="439" alt="image" src="https://github.com/user-attachments/assets/46aabbce-fec8-4230-b705-b92092c0d7e7" />
+<img width="212" height="439" alt="image" src="https://github.com/user-attachments/assets/111b3b70-fe1c-4361-b484-08fc582500e5" />
+
+
+
+
+
+
 
 
