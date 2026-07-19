@@ -74,6 +74,8 @@ function personagensTodos( ){
     exibeCards( cardsCache );
 }
 
+window.personagensTodos = personagensTodos;
+
 function exibeCards( cards, produtorPersonagem = "" ) {
    
     let listaCards = "";

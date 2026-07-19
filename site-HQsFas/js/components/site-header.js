@@ -21,6 +21,7 @@ let iconeMenu = document.getElementById("iconeMenu");
 
 iconeMenu.addEventListener("mouseover", iconeMouseOverMenu);
 iconeMenu.addEventListener("mouseout", iconeMouseOutMenu);
+iconeMenu.addEventListener("click", clickIconeMenu);
 
 function iconeMouseOverMenu() {
     iconeMenu.src = "./assets/icon/menu_hover.png";
@@ -28,4 +29,17 @@ function iconeMouseOverMenu() {
 
 function iconeMouseOutMenu() {
     iconeMenu.src = "./assets/icon/menu.png";
+}
+
+function clickIconeMenu() {   
+
+    if ( document.getElementsByClassName("search")[0].style.display === 'none' ) {
+        document.getElementsByClassName("search")[0].style = '';
+        document.getElementById("menu").style.display = 'none';
+    }
+    else {
+        document.getElementsByClassName("search")[0].style.display = 'none';
+        document.getElementById("menu").style.display = 'flex';
+    }
+
 }

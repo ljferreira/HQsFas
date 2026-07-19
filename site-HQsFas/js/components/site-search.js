@@ -14,15 +14,12 @@ class SiteSearch extends HTMLElement {
                 </datalist>
             </div>
         </section>
-        
-        <div style="display: none">
-            <nav class="menu">
-                <a href="#">EXPLORAR</a>
-                <a href="#">COMUNIDADE</a>
-                <a href="#">CONHECIMENTO</a>
-                <a href="index.html">GALERIA</a>
-            </nav>
-        </div>`;
+        <nav id="menu" style="display: none">
+            <a href="#">EXPLORAR</a>
+            <a href="#">COMUNIDADE</a>
+            <a href="#">CONHECIMENTO</a>
+            <a href="#" onclick="personagensTodos()">GALERIA</a>
+        </nav>`;
     }
 }
 
