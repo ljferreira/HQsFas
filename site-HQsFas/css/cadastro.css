@@ -1,23 +1,16 @@
 body{ 
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 90%; */
     height: 100vh;
     margin: auto;
-    /* background-image: url("../assets/images/quadrinhos2.jpg");     */
 }
 .cadastro{
     display: flex;
     align-items: start;
     padding: 15px;
     width: 350px;
-    height: auto; 
-    /* height: 450px;  */
+    height: auto;
     margin: auto;
     border-radius: 10px;
     background-color: var(--cor-footer);
-    /* background-color: yellowgreen; */
 }
 
 .cadastro form{

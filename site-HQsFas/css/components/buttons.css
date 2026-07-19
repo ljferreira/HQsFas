@@ -12,34 +12,8 @@
     background-color: var(--cor-button-hover);
 }
 
-/* .button-publisher{
-    background-color: var(--cor-button);
-    height: 30px;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: 0;
-    cursor: pointer;
-} */
-
-/* .button-publisher:hover {
-    background-color: var(--cor-button-hover);
-} */
-
 .button-form{
-    /* background-color: var(--cor-button);
-    height: 30px;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: 0;
-    cursor: pointer; */
     margin-top: 10px;
     width: 100%;
     font-size: inherit;
 }
-
-/* .button-form:hover {
-    background-color: var(--cor-button-hover);
-} */
-
